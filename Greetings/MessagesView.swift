@@ -1,9 +1,3 @@
-//
-//  MessagesView.swift
-//  Greetings
-//
-//  Created by Chris McAnulty on 2023-09-24.
-//
 
 import SwiftUI
 
