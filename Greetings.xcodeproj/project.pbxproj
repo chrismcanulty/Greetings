@@ -16,6 +16,8 @@
 		B04C3F0B2AC1051A0007286C /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C3F0A2AC1051A0007286C /* TitleView.swift */; };
 		B04C3F0D2AC105B40007286C /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C3F0C2AC105B40007286C /* MessagesView.swift */; };
 		B04C3F0F2AC107630007286C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C3F0E2AC107630007286C /* BackgroundView.swift */; };
+		B04C3F132AC37CE40007286C /* Colorful circle 180.png in Resources */ = {isa = PBXBuildFile; fileRef = B04C3F112AC37CE30007286C /* Colorful circle 180.png */; };
+		B04C3F142AC37CE40007286C /* Colorful circle 120.png in Resources */ = {isa = PBXBuildFile; fileRef = B04C3F122AC37CE40007286C /* Colorful circle 120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		B04C3F0A2AC1051A0007286C /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		B04C3F0C2AC105B40007286C /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		B04C3F0E2AC107630007286C /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		B04C3F112AC37CE30007286C /* Colorful circle 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colorful circle 180.png"; sourceTree = "<group>"; };
+		B04C3F122AC37CE40007286C /* Colorful circle 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colorful circle 120.png"; sourceTree = "<group>"; };
+		B04C3F152AC37D630007286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,8 @@
 		B04C3EF62ABF94F00007286C /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				B04C3F152AC37D630007286C /* Info.plist */,
+				B04C3F102AC37C5F0007286C /* Assets */,
 				B04C3EF72ABF94F00007286C /* GreetingsApp.swift */,
 				B04C3EF92ABF94F00007286C /* ContentView.swift */,
 				B04C3F0E2AC107630007286C /* BackgroundView.swift */,
@@ -82,6 +89,15 @@
 				B04C3EFF2ABF94F10007286C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B04C3F102AC37C5F0007286C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B04C3F122AC37CE40007286C /* Colorful circle 120.png */,
+				B04C3F112AC37CE30007286C /* Colorful circle 180.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +158,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B04C3F132AC37CE40007286C /* Colorful circle 180.png in Resources */,
+				B04C3F142AC37CE40007286C /* Colorful circle 120.png in Resources */,
 				B04C3F002ABF94F10007286C /* Preview Assets.xcassets in Resources */,
 				B04C3EFC2ABF94F10007286C /* Assets.xcassets in Resources */,
 			);
@@ -294,6 +312,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Greetings/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -332,6 +351,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Greetings/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
