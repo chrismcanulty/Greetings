@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B034FD962AC3902F0085A9D1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B034FD952AC3902F0085A9D1 /* Launch Screen.storyboard */; };
 		B04C3EF82ABF94F00007286C /* GreetingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C3EF72ABF94F00007286C /* GreetingsApp.swift */; };
 		B04C3EFA2ABF94F00007286C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C3EF92ABF94F00007286C /* ContentView.swift */; };
 		B04C3EFC2ABF94F10007286C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04C3EFB2ABF94F10007286C /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B034FD952AC3902F0085A9D1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		B04C3EF42ABF94F00007286C /* Greetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Greetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04C3EF72ABF94F00007286C /* GreetingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsApp.swift; sourceTree = "<group>"; };
 		B04C3EF92ABF94F00007286C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				B04C3F102AC37C5F0007286C /* Assets */,
 				B04C3EF72ABF94F00007286C /* GreetingsApp.swift */,
 				B04C3EF92ABF94F00007286C /* ContentView.swift */,
+				B034FD952AC3902F0085A9D1 /* Launch Screen.storyboard */,
 				B04C3F0E2AC107630007286C /* BackgroundView.swift */,
 				B04C3F0C2AC105B40007286C /* MessagesView.swift */,
 				B04C3F0A2AC1051A0007286C /* TitleView.swift */,
@@ -161,6 +164,7 @@
 				B04C3F132AC37CE40007286C /* Colorful circle 180.png in Resources */,
 				B04C3F142AC37CE40007286C /* Colorful circle 120.png in Resources */,
 				B04C3F002ABF94F10007286C /* Preview Assets.xcassets in Resources */,
+				B034FD962AC3902F0085A9D1 /* Launch Screen.storyboard in Resources */,
 				B04C3EFC2ABF94F10007286C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
