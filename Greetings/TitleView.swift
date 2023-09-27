@@ -1,6 +1,10 @@
 
 import SwiftUI
 
+/// This is the title view of the app which
+/// displays a title, a subtitle, which randomly
+/// changes on tap and we have a colorful
+/// disc which rotates on tap
 struct TitleView: View {
     
     let lineWidth = 15.0
@@ -15,12 +19,12 @@ struct TitleView: View {
         AngularGradient.init(gradient: Gradient(colors: [.pink, .purple, .blue, .orange, .yellow]), center: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/, angle: .zero)
     }
     
-    @State private var subtitle = "Exploring iOS Programming"
-    let subtitles = [
-        "Exploring iOS Programming",
-        "Learning how to bake",
-        "Programming recipes",
-        "A quest for knowledge"
+    @State private var subtitle: LocalizedStringKey = LocalizedStringKey("Exploring iOS Programming")
+    let subtitles: [LocalizedStringKey] = [
+        LocalizedStringKey("Exploring iOS Programming"),
+        LocalizedStringKey("Learning how to bake"),
+        LocalizedStringKey("Programming recipes"),
+        LocalizedStringKey("A quest for knowledge"),
     ]
     
     var body: some View {
@@ -28,7 +32,7 @@ struct TitleView: View {
             VStack(alignment: .leading) {
                 // Title
                 VStack(alignment: .leading, spacing: 0) {
-                    Text("Greetings")
+                    Text(LocalizedStringKey("Greetings"))
                         .font(.largeTitle)
                         .fontWeight(.semibold)
                     Text( subtitle )
@@ -38,7 +42,7 @@ struct TitleView: View {
                 .onTapGesture {
                     // Change subtitle
                     subtitle = subtitles
-                        .randomElement() ?? "Exploring iOS Programming"
+                        .randomElement() ?? LocalizedStringKey("Exploring iOS Programming")
                 }
             }
             
