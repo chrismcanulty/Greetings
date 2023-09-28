@@ -19,7 +19,7 @@
 		B04C3F0F2AC107630007286C /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04C3F0E2AC107630007286C /* BackgroundView.swift */; };
 		B04C3F132AC37CE40007286C /* Colorful circle 180.png in Resources */ = {isa = PBXBuildFile; fileRef = B04C3F112AC37CE30007286C /* Colorful circle 180.png */; };
 		B04C3F142AC37CE40007286C /* Colorful circle 120.png in Resources */ = {isa = PBXBuildFile; fileRef = B04C3F122AC37CE40007286C /* Colorful circle 120.png */; };
-		B0CD52E62AC3F0420052FBAB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B0CD52E82AC3F0420052FBAB /* Localizable.strings */; };
+		B0E7B05F2AC54D1C00F51D89 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B0E7B05E2AC54D1C00F51D89 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,8 +38,7 @@
 		B04C3F112AC37CE30007286C /* Colorful circle 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colorful circle 180.png"; sourceTree = "<group>"; };
 		B04C3F122AC37CE40007286C /* Colorful circle 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Colorful circle 120.png"; sourceTree = "<group>"; };
 		B04C3F152AC37D630007286C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B0CD52E72AC3F0420052FBAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		B0CD52E92AC3F11A0052FBAB /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; usesTabs = 0; };
+		B0E7B05E2AC54D1C00F51D89 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +75,8 @@
 				B04C3F102AC37C5F0007286C /* Assets */,
 				B04C3EF72ABF94F00007286C /* GreetingsApp.swift */,
 				B04C3EF92ABF94F00007286C /* ContentView.swift */,
+				B0E7B05E2AC54D1C00F51D89 /* Localizable.xcstrings */,
 				B034FD952AC3902F0085A9D1 /* Launch Screen.storyboard */,
-				B0CD52E82AC3F0420052FBAB /* Localizable.strings */,
 				B04C3F0E2AC107630007286C /* BackgroundView.swift */,
 				B04C3F0C2AC105B40007286C /* MessagesView.swift */,
 				B04C3F0A2AC1051A0007286C /* TitleView.swift */,
@@ -167,10 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04C3F132AC37CE40007286C /* Colorful circle 180.png in Resources */,
-				B0CD52E62AC3F0420052FBAB /* Localizable.strings in Resources */,
 				B04C3F142AC37CE40007286C /* Colorful circle 120.png in Resources */,
 				B04C3F002ABF94F10007286C /* Preview Assets.xcassets in Resources */,
 				B034FD962AC3902F0085A9D1 /* Launch Screen.storyboard in Resources */,
+				B0E7B05F2AC54D1C00F51D89 /* Localizable.xcstrings in Resources */,
 				B04C3EFC2ABF94F10007286C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,18 +192,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B0CD52E82AC3F0420052FBAB /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0CD52E72AC3F0420052FBAB /* en */,
-				B0CD52E92AC3F11A0052FBAB /* es */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B04C3F012ABF94F10007286C /* Debug */ = {

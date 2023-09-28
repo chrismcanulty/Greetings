@@ -27,5 +27,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .environment(\.locale, .init(identifier: "es"))
+//        .environment(\.locale, .init(identifier: "es"))
 }
