@@ -1,7 +1,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct GreetingsView: View {
     
     var body: some View {
         
@@ -26,6 +26,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    GreetingsView()
 //        .environment(\.locale, .init(identifier: "es"))
 }
