@@ -24,6 +24,7 @@
 		B0E7B0652AC64D3100F51D89 /* GreetingsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B0642AC64D3100F51D89 /* GreetingsTextView.swift */; };
 		B0E7B0672AC64F8C00F51D89 /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B0662AC64F8C00F51D89 /* RotatableCircleView.swift */; };
 		B0E7B0692AC6507800F51D89 /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B0682AC6507800F51D89 /* VerticalTitleView.swift */; };
+		B0E7B06B2AC6543300F51D89 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06A2AC6543300F51D89 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		B0E7B0642AC64D3100F51D89 /* GreetingsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTextView.swift; sourceTree = "<group>"; };
 		B0E7B0662AC64F8C00F51D89 /* RotatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCircleView.swift; sourceTree = "<group>"; };
 		B0E7B0682AC6507800F51D89 /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
+		B0E7B06A2AC6543300F51D89 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				B04C3F152AC37D630007286C /* Info.plist */,
 				B04C3F102AC37C5F0007286C /* Assets */,
 				B04C3EF72ABF94F00007286C /* GreetingsApp.swift */,
+				B0E7B06A2AC6543300F51D89 /* MainView.swift */,
 				B0E7B05E2AC54D1C00F51D89 /* Localizable.xcstrings */,
 				B034FD952AC3902F0085A9D1 /* Launch Screen.storyboard */,
 				B04C3EFB2ABF94F10007286C /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04C3F092ABFB0580007286C /* DataItemModel.swift in Sources */,
+				B0E7B06B2AC6543300F51D89 /* MainView.swift in Sources */,
 				B04C3F072ABFAC940007286C /* TextView.swift in Sources */,
 				B0E7B0652AC64D3100F51D89 /* GreetingsTextView.swift in Sources */,
 				B0E7B0672AC64F8C00F51D89 /* RotatableCircleView.swift in Sources */,
