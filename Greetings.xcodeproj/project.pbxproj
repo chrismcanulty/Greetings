@@ -25,6 +25,8 @@
 		B0E7B0672AC64F8C00F51D89 /* RotatableCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B0662AC64F8C00F51D89 /* RotatableCircleView.swift */; };
 		B0E7B0692AC6507800F51D89 /* VerticalTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B0682AC6507800F51D89 /* VerticalTitleView.swift */; };
 		B0E7B06B2AC6543300F51D89 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06A2AC6543300F51D89 /* MainView.swift */; };
+		B0E7B06D2AC671D000F51D89 /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06C2AC671D000F51D89 /* LanguageOptionsView.swift */; };
+		B0E7B06F2AC6723D00F51D89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06E2AC6723D00F51D89 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		B0E7B0662AC64F8C00F51D89 /* RotatableCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatableCircleView.swift; sourceTree = "<group>"; };
 		B0E7B0682AC6507800F51D89 /* VerticalTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalTitleView.swift; sourceTree = "<group>"; };
 		B0E7B06A2AC6543300F51D89 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B0E7B06C2AC671D000F51D89 /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
+		B0E7B06E2AC6723D00F51D89 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 				B04C3EFB2ABF94F10007286C /* Assets.xcassets */,
 				B04C3EFD2ABF94F10007286C /* Greetings.entitlements */,
 				B04C3EFE2ABF94F10007286C /* Preview Content */,
+				B0E7B06E2AC6723D00F51D89 /* Constants.swift */,
 			);
 			path = Greetings;
 			sourceTree = "<group>";
@@ -133,6 +138,7 @@
 				B0E7B0622AC6357100F51D89 /* LandscapeGreetingsView.swift */,
 				B0E7B0642AC64D3100F51D89 /* GreetingsTextView.swift */,
 				B0E7B0662AC64F8C00F51D89 /* RotatableCircleView.swift */,
+				B0E7B06C2AC671D000F51D89 /* LanguageOptionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 				en,
 				Base,
 				es,
+				ar,
 			);
 			mainGroup = B04C3EEB2ABF94F00007286C;
 			productRefGroup = B04C3EF52ABF94F00007286C /* Products */;
@@ -221,7 +228,9 @@
 				B04C3F0F2AC107630007286C /* BackgroundView.swift in Sources */,
 				B04C3EFA2ABF94F00007286C /* GreetingsView.swift in Sources */,
 				B0E7B0632AC6357100F51D89 /* LandscapeGreetingsView.swift in Sources */,
+				B0E7B06D2AC671D000F51D89 /* LanguageOptionsView.swift in Sources */,
 				B04C3EF82ABF94F00007286C /* GreetingsApp.swift in Sources */,
+				B0E7B06F2AC6723D00F51D89 /* Constants.swift in Sources */,
 				B0E7B0692AC6507800F51D89 /* VerticalTitleView.swift in Sources */,
 				B04C3F0B2AC1051A0007286C /* TitleView.swift in Sources */,
 			);

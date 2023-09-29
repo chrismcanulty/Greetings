@@ -27,5 +27,5 @@ struct GreetingsView: View {
 
 #Preview {
     GreetingsView()
-//        .environment(\.locale, .init(identifier: "es"))
+//        .environment(\.locale, .init(identifier: "ar"))
 }
