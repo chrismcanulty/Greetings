@@ -86,7 +86,6 @@
 				B04C3F152AC37D630007286C /* Info.plist */,
 				B04C3F102AC37C5F0007286C /* Assets */,
 				B04C3EF72ABF94F00007286C /* GreetingsApp.swift */,
-				B0E7B06A2AC6543300F51D89 /* MainView.swift */,
 				B0E7B05E2AC54D1C00F51D89 /* Localizable.xcstrings */,
 				B034FD952AC3902F0085A9D1 /* Launch Screen.storyboard */,
 				B04C3EFB2ABF94F10007286C /* Assets.xcassets */,
@@ -125,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				B04C3EF92ABF94F00007286C /* GreetingsView.swift */,
+				B0E7B06A2AC6543300F51D89 /* MainView.swift */,
 				B04C3F0E2AC107630007286C /* BackgroundView.swift */,
 				B04C3F0C2AC105B40007286C /* MessagesView.swift */,
 				B04C3F0A2AC1051A0007286C /* TitleView.swift */,
