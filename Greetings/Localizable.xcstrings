@@ -67,6 +67,9 @@
         }
       }
     },
+    "Click on text and disc" : {
+
+    },
     "English" : {
       "localizations" : {
         "ar" : {
@@ -232,6 +235,9 @@
         }
       }
     },
+    "Text will be randomly generated and observe nice animations" : {
+
+    },
     "Welcome to Swift Programming!" : {
       "localizations" : {
         "ar" : {
@@ -263,6 +269,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العربية"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "العربية"

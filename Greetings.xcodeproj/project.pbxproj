@@ -27,6 +27,7 @@
 		B0E7B06B2AC6543300F51D89 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06A2AC6543300F51D89 /* MainView.swift */; };
 		B0E7B06D2AC671D000F51D89 /* LanguageOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06C2AC671D000F51D89 /* LanguageOptionsView.swift */; };
 		B0E7B06F2AC6723D00F51D89 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B06E2AC6723D00F51D89 /* Constants.swift */; };
+		B0E7B0722AC7C0F600F51D89 /* GreetingsTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E7B0712AC7C0F600F51D89 /* GreetingsTip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		B0E7B06A2AC6543300F51D89 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		B0E7B06C2AC671D000F51D89 /* LanguageOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageOptionsView.swift; sourceTree = "<group>"; };
 		B0E7B06E2AC6723D00F51D89 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B0E7B0712AC7C0F600F51D89 /* GreetingsTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsTip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		B04C3EF62ABF94F00007286C /* Greetings */ = {
 			isa = PBXGroup;
 			children = (
+				B0E7B0702AC7C08D00F51D89 /* Tips */,
 				B0E7B0612AC633C400F51D89 /* Views */,
 				B0E7B0602AC633A100F51D89 /* Models */,
 				B04C3F152AC37D630007286C /* Info.plist */,
@@ -141,6 +144,14 @@
 				B0E7B06C2AC671D000F51D89 /* LanguageOptionsView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B0E7B0702AC7C08D00F51D89 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				B0E7B0712AC7C0F600F51D89 /* GreetingsTip.swift */,
+			);
+			path = Tips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 				B0E7B0652AC64D3100F51D89 /* GreetingsTextView.swift in Sources */,
 				B0E7B0672AC64F8C00F51D89 /* RotatableCircleView.swift in Sources */,
 				B04C3F0D2AC105B40007286C /* MessagesView.swift in Sources */,
+				B0E7B0722AC7C0F600F51D89 /* GreetingsTip.swift in Sources */,
 				B04C3F0F2AC107630007286C /* BackgroundView.swift in Sources */,
 				B04C3EFA2ABF94F00007286C /* GreetingsView.swift in Sources */,
 				B0E7B0632AC6357100F51D89 /* LandscapeGreetingsView.swift in Sources */,

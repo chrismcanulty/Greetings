@@ -1,5 +1,6 @@
 
 import SwiftUI
+import TipKit
 
 @main
 struct GreetingsApp: App {
@@ -12,6 +13,9 @@ struct GreetingsApp: App {
         languageDirectionString == LEFT_TO_RIGHT ? .leftToRight : .rightToLeft
     }
     
+    // set to true to test the tip
+    let resetTip = false
+    
     var body: some Scene {
         WindowGroup {
             MainView(
@@ -19,6 +23,17 @@ struct GreetingsApp: App {
                 layoutDirectionString: $languageDirectionString)
             .environment(\.locale, Locale(identifier: language))
             .environment(\.layoutDirection, layoutDirection)
+            .task {
+                if resetTip {
+                    // use to test the tip
+                    try? Tips.resetDatastore()
+                }
+                            // Configure and load your tips at app launch.
+                            try? Tips.configure([
+                                .displayFrequency(.immediate),
+                                .datastoreLocation(.applicationDefault)
+                            ])
+                        }
         }
     }
 }
